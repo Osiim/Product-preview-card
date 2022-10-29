@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+}
+
+#product-preview {
+    background-color: white;
+    width: 28em;
+    height: 21em;
+    margin: 10em auto auto auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#product-preview img {
+    object-fit: fill;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.text-wrapper {
+    padding: 1.5em 1.5em 1.5em 15.5em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+Mono:wght@600&display=swap');
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6em;
+    color: silver;
+    padding-bottom: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+.product-name {
+    font-family: 'Fraunces', serif;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.product-details {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
